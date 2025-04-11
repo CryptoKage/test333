@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degen Pets - Game Economics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="glow-in">
+        <h1>DEGEN PETS ECONOMICS</h1>
+        <p class="subtitle">Transparent Game Tokenomics</p>
+    </header>
+
+    <main>
+        <!-- ETH Flow Diagram -->
+        <section class="card flow-animation">
+            <h2>Where Your ETH Goes</h2>
+            <div class="eth-flow">
+                <img src="assets/eth-flow.svg" alt="ETH Flow Diagram" class="pulse">
+                <div class="flow-labels">
+                    <span class="mint-label">0.01 ETH Mint</span>
+                    <span class="lp-label">90% LP</span>
+                    <span class="dev-label">10% Dev</span>
+                </div>
+            </div>
+            <p class="disclaimer">All LP funds are verifiably locked for 12 months</p>
+        </section>
+
+        <!-- Reward Systems -->
+        <section class="card system-comparison">
+            <div class="system-tabs">
+                <button class="tab active" data-tab="current">Current System (V1)</button>
+                <button class="tab" data-tab="v2">Upcoming V2</button>
+            </div>
+            
+            <div class="tab-content current show">
+                <div class="warning-box">
+                    <div class="warning-icon">⚠️</div>
+                    <p>Transitional system - Changing soon</p>
+                </div>
+                <ul>
+                    <li>All pets earn points</li>
+                    <li>Rewards from token emissions</li>
+                    <li>Basic trading simulation</li>
+                </ul>
+            </div>
+            
+            <div class="tab-content v2">
+                <div class="success-box">
+                    <div class="success-icon">✅</div>
+                    <p>Sustainable economy coming</p>
+                </div>
+                <ul>
+                    <li>Pets trade from their own wallet</li>
+                    <li>Only profitable trades earn</li>
+                    <li>Losing trades cost pet energy</li>
+                    <li>0.5% fee (50% prizes, 50% burn)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Fee Structure -->
+        <section class="card fee-table">
+            <h2>Fee Structure</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Action</th>
+                            <th>Fee</th>
+                            <th>Destination</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mint Stable</td>
+                            <td>0.01 ETH</td>
+                            <td>90% LP, 10% Dev</td>
+                        </tr>
+                        <tr>
+                            <td>Mint Egg</td>
+                            <td>0.01 ETH</td>
+                            <td>90% LP, 10% Dev</td>
+                        </tr>
+                        <tr>
+                            <td>Trade (V2)</td>
+                            <td>0.5%</td>
+                            <td>50% Prize Pool, 50% Burn</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- FAQ Accordion -->
+        <section class="card faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-btn">Is this a Ponzi scheme? <span>+</span></button>
+                    <div class="accordion-content">
+                        <p>No. V1 rewards come from emissions, but V2 will transition to a skill-based system where rewards are generated from actual trading performance, not new player mints.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-btn">How are LP funds secured? <span>+</span></button>
+                    <div class="accordion-content">
+                        <p>All liquidity pool funds are locked via smart contract for 12 months. You can verify this on Etherscan.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-btn">When will V2 launch? <span>+</span></button>
+                    <div class="accordion-content">
+                        <p>Targeting Q3 2024. Follow our Discord for updates.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-fade">
+        <p>© 2024 Degen Pets | Transparent Game Economics</p>
+    </footer>
+
+    <script src="animations.js"></script>
+</body>
+</html>
